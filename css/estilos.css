@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.header { 
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0rem 2rem; 
+}
+
+.logo {
+    text-align: left;
+    
+
+}
+
+.logo-titulo {
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.logo-slogan {
+    font-size: .9rem;
+    display: flex;
+
+}
+.navegador{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: #E2DADB;
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: right;
+    text-align: center;
+    font-size: 16px;
+
+}
+.menu-link {
+    text-decoration: none;
+}
+.messi{
+    background-color: #E2DADB;
+    color: black;
+}
+.galeria-messi {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background-color: #E2DADB;
+}
+.messi-06 {
+width: 800px;
+background-color: #E2DADB;
+}
+.messi-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2.5rem;
+
+}
+body{
+    background-color: #E2DADB;
+    margin: 3rem;
+ 
+}
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+section{
+    text-align: center;
+    font-size: 20px;
+    
+}
+a{
+    color: black;
+}
+.parrafo{
+ padding: .6rem;
+}
+.cerebro{
+    padding: 1.2rem;
+}
+.aimar{
+    padding: 1.2rem; 
+}
+.footer {
+    display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.footer-icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+
+
+
+/* inicio de seccion noticias */
+.ultimas-noticias{
+    display: flex;
+    padding: 1.8rem;
+    justify-content: center;
+}
+.noticias-martino{
+    padding: 1.2rem;
+}
+.respuesta-tata{
+    font-size: 1.2rem;
+}
+.biografia{
+    padding: 1rem;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "barsa  psg  miami  arg";
+    gap: 2px;
+    padding: 1rem;
+
+}
+
+.barsa{
+    display: grid;
+    grid-area: barsa;
+    background-color: #e5b5b5;
+}
+
+.psg{
+    display: grid;
+    grid-area: psg;
+    background-color: #e5b5b5;
+
+}
+
+.miami{
+    display: grid;
+    grid-area: miami;
+    background-color: #e5b5b5;
+
+}
+
+.arg{
+    display: grid;
+    grid-area: arg;
+    background-color: #e5b5b5;
+
+}
+
+.contenedor_1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ".....  ...  .....  ...";
+    gap: 2px;
+    padding: .5rem;
+    list-style: none;
+    text-align: left;
+    margin: 1rem;
+   
+}
+
+
+
