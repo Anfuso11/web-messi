@@ -5,72 +5,53 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 .header { 
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0rem 2rem; 
+padding: 1rem 3rem; 
 }
 
+ 
 .logo {
-    text-align: left;
-    
-
-}
-
-.logo-titulo {
-    font-weight: 800;
-    font-size: 2rem;
-    text-align: left;
-}
-
-.logo-slogan {
-    font-size: .9rem;
     display: flex;
-
+    justify-content: left;
 }
+
 .navegador{
-    text-align: center;
     color: black;
     font-size: 20px;
     background-color: #E2DADB;
     display: flex;
-    gap: 1rem;
     justify-content: right;
+  
 }
 
 .menu {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: right;
-    text-align: center;
+    gap: 1rem;
     font-size: 16px;
 
 }
 .menu-link {
     text-decoration: none;
 }
+.menu-item :hover{
+    background: #e5b5b5;
+    color: black;
+
+}
+
 .messi{
     background-color: #E2DADB;
     color: black;
+    
 }
-.galeria-messi {
-    display: flex;
-    max-width: 1000px;
-    margin-inline: auto;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    background-color: #E2DADB;
-}
-.messi-06 {
-width: 800px;
-background-color: #E2DADB;
-}
+
+
 .messi-title {
     display: flex;
     justify-content: center;
@@ -107,6 +88,7 @@ a{
 .cerebro{
     padding: 1.2rem;
 }
+
 .aimar{
     padding: 1.2rem; 
 }
@@ -121,9 +103,6 @@ a{
     font-size: 2rem;
 }
 
-
-
-
 /* inicio de seccion noticias */
 .ultimas-noticias{
     display: flex;
@@ -136,8 +115,22 @@ a{
 .respuesta-tata{
     font-size: 1.2rem;
 }
+
 .biografia{
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    padding-right: 45rem;
+    
 }
 
 .contenedor{
@@ -189,8 +182,65 @@ a{
     list-style: none;
     text-align: left;
     margin: 1rem;
+}
+ 
+
+@media screen and (max-width: 480px){
+    .header{
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .menu{
+        flex-direction: row;
+        font-size: 11px;
+    }
+   
+    .messi-title {
+        font-size: 19px;
+    }
+    
+    .cerebro{
+        font-size: 19px;
+    }
+    .cerebroimg{
+        width: 70%;
+        height: 75%;   
+    }
+    .aimar{
+        font-size: 19px;
+    }
+    .aimarimg{
+        width: 70%;
+        height: 75%;
+    }
+
+    .ultimas-noticias{
+        font-size: 22px;
+    }
+    
+    .noticias-martino{
+        font-size: 16px;
+    }
+
+    .container-tata{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        
+    
+    }
+    .container-tataiframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+
    
 }
-
-
-
