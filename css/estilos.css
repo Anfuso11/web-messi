@@ -170,6 +170,7 @@ a{
     background-color: #e5b5b5;
 
 }
+/*  SECCION RECORDS */
 
 .contenedor_1{
     display: grid;
@@ -183,7 +184,253 @@ a{
     text-align: left;
     margin: 1rem;
 }
- 
+.contenedor-records{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "records1 imagen-messi records2";
+    gap: 2rem;
+}
+.records1 {
+    list-style: none;
+}
+.records2 {
+    list-style: none;
+}
+/* SECCION STATS */
+
+.stats-barcelona{
+    font-size: 24px;
+    text-align: center;
+}
+
+.contenedor-stats{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "......... goles         asistencias   partidos         titulos"
+    "barcelona cant-goles    cant-asis     cant-partidos    cant-titulos"
+    "psg       psg-goles     psg-asis      psg-partidos     psg-titulos"
+    "miami     miami-goles   miami-asis    miami-partidos   miami-titulos"
+    "arg       arg-goles     arg-asis      arg-partidos     arg-titulos"
+    "total     total-goles   total-asis    total-partidos   total-titulos";
+    gap: 2px;
+    padding: 1rem;
+    
+}
+.barcelona { 
+    display: grid;
+    grid-area: barcelona;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.goles { 
+    display: grid;
+    grid-area: goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.asistencias{
+    display: grid;
+    grid-area: asistencias;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.partidos{
+    display: grid;
+    grid-area: partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.titulos{
+    display: grid;
+    grid-area: titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cant-goles{
+    grid-area: cant-goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cant-asis{
+    grid-area: cant-asis;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cant-partidos{
+    grid-area: cant-partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cant-titulos{
+    grid-area: cant-titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.psg{
+    grid-area: psg;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.psg-goles{
+    grid-area: psg-goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.psg-asis{
+    grid-area: psg-asis;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.psg-partidos{
+    grid-area: psg-partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.psg-titulos{
+    grid-area: psg-titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.miami{
+    grid-area: miami;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.miami-goles{
+    grid-area: miami-goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.miami-asis{
+    grid-area: miami-asis;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.miami-partidos{
+    grid-area: miami-partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.miami-titulos{
+    grid-area: miami-titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.arg{
+    grid-area: arg;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.arg-goles{
+    grid-area: arg-goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.arg-asis{
+    grid-area: arg-asis;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.arg-partidos{
+    grid-area: arg-partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.arg-titulos{
+    grid-area: arg-titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.total{
+    grid-area: total;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.total-goles{
+    grid-area: total-goles;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.total-asis{
+    grid-area: total-asis;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.total-partidos{
+    grid-area: total-partidos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.total-titulos{
+    grid-area: total-titulos;
+    background-color: #e5b5b5;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 
 @media screen and (max-width: 480px){
     .header{
