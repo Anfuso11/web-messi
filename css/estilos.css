@@ -397,35 +397,35 @@ a{
 }
 .total{
     grid-area: total;
-    background-color: #e5b5b5;
+    background-color: #e78787;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .total-goles{
     grid-area: total-goles;
-    background-color: #e5b5b5;
+    background-color: #e78787;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .total-asis{
     grid-area: total-asis;
-    background-color: #e5b5b5;
+    background-color: #e78787;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .total-partidos{
     grid-area: total-partidos;
-    background-color: #e5b5b5;
+    background-color: #e78787;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 .total-titulos{
     grid-area: total-titulos;
-    background-color: #e5b5b5;
+    background-color: #e78787;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
