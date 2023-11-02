@@ -213,6 +213,7 @@ a{
 li{
     margin: .5rem;
 }
+/* inicio de seccion records */
 
 .contenedor-records{
     display: grid;
@@ -515,6 +516,11 @@ li{
         width: 100%;
         height: 100%;
     }
+    .menu-item{
+        font-size: 8.5px;
+        margin-top: 1rem;
+    
+    }
 
     .biografia{
         font-size: 1.3rem;
@@ -527,5 +533,63 @@ li{
      .carrosuel-img{
       width: 300px;
     }
-   
+
+    .grid{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, .1fr);
+    grid-template-areas: 
+       "barsa"
+       "pal-barsa"
+       "psg"
+       "pal-psg"
+       "miami"
+       "pal-miami"
+       "arg"
+       "pal-arg";
+    }
+    .contenedor-records{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "records1"
+    "imagen-messi" 
+    "records2";
+
+    }
+    .records1{
+        font-size: 16px;
+    }
+
+    .records2{
+        font-size: 16px;
+    }
+
+    .imagen-messi{
+        width: 1px;
+        
+
+    }
+    .contenedor-stats{
+    grid-template-columns: repeat(2, .5fr);
+    grid-template-rows: repeat(4, .8fr);
+    grid-template-areas: 
+    "barcelona barcelona barcelona barcelona"
+    "goles asistencias partidos titulos"
+    "cant-goles cant-asis cant-partidos cant-titulos"
+    "psg        psg       psg           psg"
+    "psg-goles     psg-asis      psg-partidos     psg-titulos"
+    "miami         miami         miami            miami     "
+    "miami-goles   miami-asis    miami-partidos   miami-titulos"
+    "arg           arg           arg              arg       "
+    "arg-goles     arg-asis      arg-partidos     arg-titulos"
+    "total         total         total            total     "
+    "total-goles   total-asis    total-partidos   total-titulos";
+    
+
+
+    
+    
+
+    }
+    
 }
