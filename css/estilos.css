@@ -123,7 +123,8 @@ a{
     font-size: 2rem;
     color:black;
     font-family: 'Montserrat', sans-serif;
-}
+    
+} 
 
 
 /* inicio sección palmarés */
@@ -473,10 +474,14 @@ li{
         flex-direction: row;
         font-size: 9.9px;
     }
+    
+
    
     .messi-title {
-        font-size: 19px;
+        font-size: 1.4rem;
+        padding: .5rem;
     }
+    
     
     .cerebro{
         font-size: 19px;
@@ -494,7 +499,7 @@ li{
     }
 
     .ultimas-noticias{
-        font-size: 22px;
+        font-size: 1.4rem;
     }
     
     .noticias-martino{
@@ -523,8 +528,10 @@ li{
     }
 
     .biografia{
-        font-size: 1.3rem;
-    }
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: .5rem;
+       }
 
      .carousel-item{
      width: 100%;
@@ -532,6 +539,10 @@ li{
      }
      .carrosuel-img{
       width: 300px;
+    }
+
+    .palmares{
+        font-size: 1.4rem;
     }
 
     .grid{
@@ -569,7 +580,14 @@ li{
         
 
     }
+
+.stats-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
     .contenedor-stats{
+    justify-content: center;
     grid-template-columns: repeat(2, .5fr);
     grid-template-rows: repeat(4, .8fr);
     grid-template-areas: 
@@ -584,12 +602,7 @@ li{
     "arg-goles     arg-asis      arg-partidos     arg-titulos"
     "total         total         total            total     "
     "total-goles   total-asis    total-partidos   total-titulos";
-    
-
-
-    
-    
-
     }
+
     
 }
